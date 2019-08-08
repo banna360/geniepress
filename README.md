@@ -1,6 +1,6 @@
 # README
 
-# WRDPRS Boilerplate
+# GeniePress Boilerplate
 
 A base WordPress theme with modern work flow..
 
