@@ -49,6 +49,9 @@ Normalize: [https://necolas.github.io/normalize.css/](https://necolas.github.io/
 
 Preboot Docs can be found here: [https://github.com/moonpyk/preboot.scss](https://github.com/moonpyk/preboot.scss)
 
+## BrowserSync
+Update `config.js` file in root with your local development variyables.
+
 ## PHP
 
 Our functions.php file loads in some starter files located in the `/lib` folder.
