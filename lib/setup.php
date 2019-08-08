@@ -1,8 +1,8 @@
 <?php
 
-namespace Hustle\Setup;
+namespace Coregenie\Setup;
 
-use Hustle\Assets;
+use Coregenie\Assets;
 
 /**
  * Theme setup

@@ -1,16 +1,16 @@
 <?php
 
-namespace Hustle\Wrapper;
+namespace Coregenie\Wrapper;
 
 function template_path() {
-    return HustleWrapping::$main_template;
+    return CoregenieWrapping::$main_template;
 }
 
 function sidebar_path() {
-    return new HustleWrapping('templates/sidebar.php');
+    return new CoregenieWrapping('templates/sidebar.php');
 }
 
-class HustleWrapping {
+class CoregenieWrapping {
     // Stores the full path to the main template file
     public static $main_template;
 
@@ -51,8 +51,8 @@ class HustleWrapping {
             self::$base = false;
         }
 
-        return new HustleWrapping();
+        return new CoregenieWrapping();
     }
 }
 
-add_filter('template_include', [__NAMESPACE__ . '\\HustleWrapping', 'wrap'], 109);
+add_filter('template_include', [__NAMESPACE__ . '\\CoregenieWrapping', 'wrap'], 109);
